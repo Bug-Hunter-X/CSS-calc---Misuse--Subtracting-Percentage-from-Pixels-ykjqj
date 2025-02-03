@@ -1,0 +1,12 @@
+/* Correct usage of calc() */
+#element {
+  width: 200px;
+  margin-left: calc(50% - 100px);
+}
+
+/*Or, if you want to use percentages only:
+#element {
+  width: 50%;
+  margin-left: calc(50% - 25%);
+}
+*/
